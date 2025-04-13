@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Главная</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">MySite</div>
+    <nav id="nav" class="nav">
+      <a href="index.html">Главная</a>
+      <a href="login.html">Вход</a>
+      <a href="register.html">Регистрация</a>
+    </nav>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+  </header>
+  <main class="main">
+    <h1>Добро пожаловать!</h1>
+    <div class="slider" id="slider">
+      <div class="slide active">Первый слайд</div>
+      <div class="slide">Второй слайд</div>
+      <div class="slide">Третий слайд</div>
+    </div>
+  </main>
+  <script src="js/burger.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>
